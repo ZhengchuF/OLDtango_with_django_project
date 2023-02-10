@@ -5,7 +5,7 @@
 <html>
 
     <head>
-        <title>Rango</title>
+        <title>Homepage</title>
     </head>
 
     <body>
@@ -21,7 +21,9 @@
             <ul>
             {% for category in categories %}
             <li>
-                <a href="/rango/category/{{ categories.slug}}">{{ category.name}}</a>
+                <a href="/rango/category/{{ categories.slug}}">
+                    {{ category.name}}
+                </a>
             </li>
             {% endfor %}
             </ul>
